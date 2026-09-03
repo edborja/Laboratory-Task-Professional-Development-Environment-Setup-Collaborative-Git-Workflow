@@ -1,0 +1,19 @@
+[project]
+name = "laboratory-task-professional-development-environment-setup-collaborative-git-workflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Emptyasair", email = "eduardogabrielmusa06@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "flet[add]>=0.86.5",
+]
+
+[project.scripts]
+laboratory-task-professional-development-environment-setup-collaborative-git-workflow = "laboratory_task_professional_development_environment_setup_collaborative_git_workflow:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
