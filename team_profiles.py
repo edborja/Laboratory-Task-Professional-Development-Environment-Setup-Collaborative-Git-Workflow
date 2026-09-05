@@ -45,10 +45,10 @@ def get_initial_team() -> List[TeamMember]:
             full_name="Edmar B. Borja", # example: "Maria Clara Santos"
             role="Lead Frontend UI Developer",
             specialization="Flet Reactive Widgets & Material 3 Layouts",
-            github_handle="@dev1-github",          # example: "@mariaclara-cspc"
+            github_handle="@edborja",          # example: "@mariaclara-cspc"
             avatar_icon=ft.Icons.PALETTE,
             accent_color=ft.Colors.TEAL_700,
-            photo_url="/dev1.jpg",                 # Photo: local asset or URL (e.g. "https://github.com/dev1-github.png")
+            photo_url="assets/._dev1.jpg",                 # Photo: local asset or URL (e.g. "https://github.com/dev1-github.png")
         ),
         # ----------------------------------------------------------------------
         # TODO: [DEVELOPER 2 TASK] - Branch: feature/dev2-state
@@ -59,7 +59,7 @@ def get_initial_team() -> List[TeamMember]:
             full_name="Noelee Anthony S. Barandon", # example: "Juan Dela Cruz"
             role="Backend & State Engineer",
             specialization="State Mutation & Event Handlers",
-            github_handle="@dev2-github",          # example: "@jdelacruz-cspc"
+            github_handle="@nonoelee-ui",          # example: "@jdelacruz-cspc"
             avatar_icon=ft.Icons.DATA_OBJECT,
             accent_color=ft.Colors.AMBER_800,
             photo_url="/dev2.jpg",                 # Photo: local asset or URL (e.g. "https://github.com/dev2-github.png")
@@ -73,7 +73,7 @@ def get_initial_team() -> List[TeamMember]:
             full_name="Eduardo Gabriel S. Musa", # example: "Angelo Reyes"
             role="QA & Feature Engineer",
             specialization="Testing Diagnostics, Theme Engine & Controls",
-            github_handle="@dev3-github",          # example: "@areyes-cspc"
+            github_handle="@mimitzkii",          # example: "@areyes-cspc"
             avatar_icon=ft.Icons.BUG_REPORT,
             accent_color=ft.Colors.INDIGO_700,
             photo_url="assets/._dev3.jpg",                 # Photo: local asset or URL (e.g. "https://github.com/dev3-github.png")
