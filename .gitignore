@@ -53,3 +53,7 @@ Desktop.ini
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.code-workspace
+
+# Ignores temporary documents (~$)
+~$*.docx
